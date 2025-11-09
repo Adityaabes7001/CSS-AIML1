@@ -1,0 +1,19 @@
+body {
+    border: 2px solid black;   /* Page ke charo taraf border */
+    padding: 20px;             /* Page ke andar space */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    background-color: yellow;   /* Content area ka color */
+    padding: 40px;             /* Border ke andar ka space */
+    border: 10px solid blue;   /* Blue border */
+    margin: 50px;              /* Border ke bahar space */
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
