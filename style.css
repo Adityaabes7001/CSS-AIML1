@@ -1,19 +1,36 @@
-body {
-    border: 2px solid black;   /* Page ke charo taraf border */
-    padding: 20px;             /* Page ke andar space */
-    font-family: Arial, sans-serif;
+.container{
+    height: 500px;
+    width: 1000px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(3,100px);
+    /* grid-template-areas: "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer"; */
+    gap: 10px;
+    justify-items: center;
 }
-
-h1 {
+.item{
+    height: 80px;
+    width: 100px;
+    background-color: brown;
+    border: 1px solid black;
+    color: white;
     text-align: center;
-}
+    align-content: center;
+    justify-content: center;
 
-.box {
-    background-color: yellow;   /* Content area ka color */
-    padding: 40px;             /* Border ke andar ka space */
-    border: 10px solid blue;   /* Blue border */
-    margin: 50px;              /* Border ke bahar space */
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
 }
+/* .item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: main;
+}
+.item3{
+    grid-area: sidebar;
+}
+.item4{
+    grid-area: footer;
+} */
